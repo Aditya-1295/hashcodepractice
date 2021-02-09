@@ -53,44 +53,33 @@ int main()
             t2 = input[2];
             t3 = input[3];
             
-        }else{
+         }
+        else{
 
             int v;
             string ingre;
             set<string> temp_ingre;
-            for (int i =0;i<M;i++){
-                int flag = 0;
-                int num;
-                if (flag == 0){
 
-                    is>>num;
-                    pi.index = num;
-                    flag = 1;
 
-                }
-
-                is>>ingre;
-                temp_ingre.insert(ingre);
-                
-                
-            }
-
-            pi.ingredients = temp_ingre;
+            
 
 
 
         }
 
+
+
         count++;
-        pizza[count-1] = pi;
+        
     }
 
     
 
     fin.close();
 
+    cout<<M<<t1<<t2<<t3;
 
-    // cout<<pizza;
+
 
 
 
